@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+configs:
+  config:
+    - name: luohz1
+      desc: spring-boot-demo1
+    - name: luohz2
+      desc: spring-boot-demo2
+
+spring:
+  value: javatrip123
+  remark: javatrip123
+  resources:
+    static-locations: classpath:/templates/
+  datasource:
+      db1:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://8.131.77.104:3306/tuantuan?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&useAffectedRows=true&allowPublicKeyRetrieval=true
+        username: root
+        password: root
+      db2:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://8.131.77.104:3306/yuanyuan?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&useAffectedRows=true&allowPublicKeyRetrieval=true
+        username: root
+        password: root
