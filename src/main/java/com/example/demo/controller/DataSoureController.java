@@ -32,7 +32,7 @@ public class DataSoureController {
 
     @GetMapping("testData2")
     public String testData2(){
-        int update = db2JdbcTemplate.update("insert into student(student_id,name,age) values(?,?,?)", new Object[]{2,"zry", 18});
+        int update = db2JdbcTemplate.update("insert into student(student_id,name,age) values(?,?,?)", new Object[]{3,"lalala", 18});
         return "testData2更改行数：" + update;
     }
 

@@ -16,11 +16,28 @@ spring:
   datasource:
       db1:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        jdbc-url: jdbc:mysql://8.131.77.104:3306/tuantuan?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&useAffectedRows=true&allowPublicKeyRetrieval=true
-        username: root
-        password: root
+        jdbc-url: ENC(cOEHrmahot5OKxpxTxOwg6YBepL3pR49yEcYTV0FYSaK4jBabup6L3wAN7Hl7YfaAbh3CcSeSAX2jH70bg8YthVAtQObMJctD92k+fjwX6MakVZ3UCzN9jpy/mjPpO7lHyUxSY59s+9PL9nkX2yiQbXZjTGTcW83ytz2RqfuuEiiRH7gdQJMaqZz6yixcekmM8itg1EDTdOZhmoM0F9MfjjcL6kRAQ1Q/oIb0q957BkaaSfN6LUN6MfvQ2JG3McEN5be05KY2t7wL4EHNXzcPGmwOMaqNqUwx1LiWeuFs8g=)
+        username: ENC(QMy4XN7p/IfWqomg+4WPaQ==)
+        password: ENC(GJ7p24hlgVCNqn4vRmMXHw==)
       db2:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        jdbc-url: jdbc:mysql://8.131.77.104:3306/yuanyuan?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&useAffectedRows=true&allowPublicKeyRetrieval=true
-        username: root
-        password: root
+        jdbc-url: ENC(pTiAUXt8gRNo9wb/fhTzSnrzzfxl0iKGfJ/4Nx5xZ4sdq+ApM19QHWguFlZxdfo4NKMXhVhwddMu+M8rs9s3thtnbu5NKS4SvwGiWOB8x1Tv2IeOjAr7sLF0Xpm7n6z3wmcJDt+95xH17JIEc2vEgDbHFIlXF+pIre1771zi8EEW/fWTpzZRBbBHXWces9r5tb9+xR5/M3sjQNKZElCESibfalaQg+QAtR//GbJCIxWRFZ+FeeGo+puHUTTknAyyiodztf6B5ZFYn1relH2V2FGoTecf8oBmECWrnhchRuo=)
+        username: ENC(QMy4XN7p/IfWqomg+4WPaQ==)
+        password: ENC(GJ7p24hlgVCNqn4vRmMXHw==)
+  redis:
+    database: 0
+    host: 8.131.77.104
+    port: 6379
+    timeout: 1000
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+jasypt:
+  encryptor:
+    password: EbfYkitulv73I2p0mXI50JMXoaxZTKJ7
+
+
+
