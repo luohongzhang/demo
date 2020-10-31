@@ -35,9 +35,16 @@ spring:
         max-wait: -1
         max-idle: 8
         min-idle: 0
+  rabbitmq:
+    virtual-host: /
+    port: 5672
+    host: 8.131.77.104
+    username: guest
+    password: guest
 jasypt:
   encryptor:
     password: EbfYkitulv73I2p0mXI50JMXoaxZTKJ7
+
 
 
 
