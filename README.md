@@ -7,3 +7,5 @@
 4, springboot集成jpa;
 5, springboot多数据源切换；
 6，springboot数据连接加密；
+7,集成rabbitmq 2020年10月31日
+
